@@ -30,3 +30,14 @@ h1 {
   font-weight: 700;
   border-radius: 15px;
 }
+.my-recipies {
+  text-align: center;
+}
+.food-item {
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px gray;
+}
