@@ -46,3 +46,17 @@ h1 {
   padding-top: 10%;
   padding-right: 10%;
 }
+.most-popular {
+  width: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-right: 2px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px gray;
+}
+.most-popular img {
+  width: 40%;
+  height: 50%;
+  padding-top: 10%;
+  padding-right: 10%;
+}
