@@ -17,7 +17,7 @@ h1 {
 }
 .flexible-container {
   display: flex;
-  padding: 150px;
+  padding: 100px;
 }
 .about-me {
   background-image: url(images/shapes/7.png);
