@@ -34,10 +34,15 @@ h1 {
   text-align: center;
 }
 .food-item {
-  width: 20%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-right: 10px;
-  border-radius: 5px;
+  width: 33.33%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-right: 2px;
+  border-radius: 15px;
   box-shadow: 10px 10px 10px gray;
+}
+.food-item img {
+  width: 85%;
+  padding-top: 10%;
+  padding-right: 10%;
 }
