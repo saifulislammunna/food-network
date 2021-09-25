@@ -16,6 +16,7 @@ h1 {
   width: 80%;
 }
 .flexible-container {
+ 
   display: flex;
   padding: 100px;
 }
@@ -34,6 +35,11 @@ h1 {
   text-align: center;
 }
 .food-item {
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #eccfd4;
+  -webkit-box-shadow: 12px 12px 24px #c9b0b4, -12px -12px 24px #ffeef4;
+  box-shadow: 12px 12px 24px #c9b0b4, -12px -12px 24px #ffeef4;
   width: 33.33%;
   margin-left: 2%;
   margin-right: 2%;
@@ -47,12 +53,22 @@ h1 {
   padding-right: 10%;
 }
 .most-popular {
-  width: 50%;
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-right: 2px;
-  border-radius: 15px;
-  box-shadow: 10px 10px 10px gray;
+   /* -webkit-border-radius: 50px;
+border-radius: 50px;
+background: #D1D8EC;
+-webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff; */
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+   background: #D1D8EC;
+   -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+   box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+   width: 50%;
+   margin-left: 2%;
+   margin-right: 2%;
+   padding-right: 2px;
+   border-radius: 15px;
+   box-shadow: 10px 10px 10px gray;
 }
 .most-popular img {
   width: 40%;
